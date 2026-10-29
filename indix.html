@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Anifa Muze</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            color: #243247;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #102c50;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            font-size: 32px;
+        }
+
+        header p {
+            color: #c8ddf5;
+        }
+
+        .portfolio {
+            max-width: 1000px;
+            margin: 45px auto;
+            padding: 25px;
+        }
+
+        .apresentacao {
+            display: flex;
+            align-items: center;
+            gap: 35px;
+            background: white;
+            padding: 35px;
+            border-radius: 18px;
+            box-shadow: 0 5px 20px #00000010;
+        }
+
+        .foto {
+            width: 280px;
+            height: 330px;
+            object-fit: cover;
+            border-radius: 15px;
+            border: 4px solid #d7e8fa;
+        }
+
+        .texto h2 {
+            color: #174d83;
+            margin-bottom: 15px;
+        }
+
+        .texto p {
+            margin-bottom: 15px;
+        }
+
+        .destaque {
+            background: #e6f1fc;
+            padding: 15px;
+            border-left: 4px solid #2879bd;
+            border-radius: 6px;
+            margin-top: 15px;
+        }
+
+        footer {
+            text-align: center;
+            background: #102c50;
+            color: white;
+            padding: 20px;
+        }
+
+        @media (max-width: 650px) {
+            .apresentacao {
+                flex-direction: column;
+                padding: 20px;
+            }
+
+            .foto {
+                width: 100%;
+                max-width: 280px;
+                height: 300px;
+            }
+
+            header h1 {
+                font-size: 27px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Anifa Muze</h1>
+        <p>Moçambicana | Estudante de Programação</p>
+    </header>
+
+    <main class="portfolio">
+        <section class="apresentacao">
+
+            <!-- Coloque a sua fotografia no lugar desta imagem -->
+            <img
+                src="Retrato profissional em fundo azul-escuro.png"
+                alt="Fotografia de Anifa Muze"
+                class="foto"
+            >
+
+            <div class="texto">
+                <h2>Olá! Seja bem-vindo ao meu portfólio.</h2>
+
+                <p>
+                    Sou Anifa Muze, uma jovem moçambicana que acredita
+                    no poder da tecnologia para transformar ideias em
+                    soluções reais. Concluí a 12.ª classe e desejo
+                    crescer na área da programação, desenvolvendo
+                    competências para criar projetos úteis e inovadores.
+                </p>
+
+                <p>
+                    Sou dedicada, curiosa e determinada a aprender.
+                    Acredito que cada linha de código é uma oportunidade
+                    para criar algo novo, resolver problemas e construir
+                    um futuro melhor.
+                </p>
+
+                <div class="destaque">
+                    <strong>O meu lema:</strong><br>
+                    “Não preciso de saber tudo para começar; preciso
+                    apenas de coragem para aprender e determinação
+                    para continuar.”
+                </div>
+
+                <p>
+                    <strong>O meu objetivo:</strong>
+                    tornar-me uma programadora competente, capaz de
+                    transformar ideias em realidade através da tecnologia.
+                </p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Anifa Muze | O meu futuro começa com uma ideia.</p>
+    </footer>
+
+</body>
+</html>
+
